@@ -10,12 +10,12 @@
     <meta name="author" content="fam. Van Vugt">
 
     <style type="text/css">
-    html, body {
-      margin: 0;
-        padding: 0;
-      height: 100%;
-      width: 100%;
-    }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
 
     h1, h2, h3, h4, h5, h6 {
       text-align: center;
@@ -23,7 +23,7 @@
 
     body {
       font-family: Lato, "Open Sans", sans-serif;
-        font-size: 180%;
+      font-size: 180%;
     }
 
     .photo-overlay {
@@ -33,18 +33,44 @@
       width: 100%;
     }
 
+    .right {
+      margin-left: 60%;
+    }
+
+    div.text {
+      margin: 5%;
+    }
+
+    @media screen and (max-width: 992px) {
+      body {
+        font-size: 140%;
+      }
+      .right {
+        margin-left: 50%;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        font-size: 100%;
+      }
+      .right {
+        margin-left: 20%;
+      }
+    }
+
     </style>
 
   </head>
 
   <body>
     <div class="photo-overlay">
-      <h1 style="margin-left: 70%;">Marcel van Vugt</h1>
-      <h2 style="margin-left: 70%;">1957 - 2021</h2>
+      <h1 class="right">Marcel van Vugt</h1>
+      <h2 class="right">1957 - 2021</h2>
     </div>
     <img class="splash" src="dancer.jpg" alt="Marcel op de Dancer" width="100%" />
 
-    <p style="margin-left: 70%; font-style: italic;">
+    <p class="right">
       De storm is gaan liggen<br />
       Een lichte bries steekt op<br />
       De zeilen worden gehesen<br />
@@ -54,37 +80,35 @@
       Naar de eeuwigheid<br />
     </p>
 
-    <p style="text-align: center;">
-      Bewonderenswaardig was zijn levenskracht.<br />
-      Sterk was hij in de strijd tegen de ziekte.<br />
-      Omring door dierbaren is van ons heengegaan mijn man en onze vader<br />
-    </p>
-    <h1>Marcel van Vugt</h1>
-
-    <p style="text-align: center;">* 's Hertogenbosch, 5 december 1957
-      &nbsp;
-      &nbsp;
-      &nbsp;
-      &nbsp;
-      &nbsp;
-      &nbsp;
-      &nbsp;
-      &nbsp;
-      &nbsp;
-    ✝ Oss, 26 december 2021</p>
-    <p style="text-align: center;">echtgenoot van</p>
-    <h2>Madeleine van Vugt</h2>
-
-    <p style="margin-left: 70%;">
-      Madeleine
-      <p style="margin-left: 72%;">
-        Daan en Sanne<br />
-        Hester<br />
-        Erik
+    <div class="text">
+      <p style="text-align: center;">
+        Bewonderenswaardig was zijn levenskracht.<br />
+        Sterk was hij in de strijd tegen de ziekte.<br />
+        Omring door dierbaren is van ons heengegaan mijn man en onze vader<br />
       </p>
-    </p>
+      <h1>Marcel van Vugt</h1>
 
-    <div style="margin: 10%;">
+      <p style="text-align: center;">* 's Hertogenbosch, 5 december 1957
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        ✝ Oss, 26 december 2021</p>
+      <p style="text-align: center;">echtgenoot van</p>
+      <h2>Madeleine van Vugt</h2>
+
+      <p class="right">
+        Madeleine<br />
+        &nbsp;&nbsp;Daan en Sanne<br />
+        &nbsp;&nbsp;Hester<br />
+        &nbsp;&nbsp;Erik
+      </p>
+
       <hr />
 
       <p>
